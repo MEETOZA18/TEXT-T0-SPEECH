@@ -1,7 +1,3 @@
-# importing pandas
-
-import pandas as pd
-
 # with the help of pandas read a text file
 data = pd.read_csv("fliename.txt", header=None)
 
