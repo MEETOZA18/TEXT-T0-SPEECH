@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-#with the help of pandas reas a text file 
+#with the help of pandas read a text file 
 data = pd.read_csv("fliename.txt",header=None)
 
 #Just printing the text file
