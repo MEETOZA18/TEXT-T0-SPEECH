@@ -3,10 +3,10 @@ from gtts import gTTS
 import os
 
 # en=english language
-myobj = gTTS(text=input("Enter Text for Text to Speech : "),
-             lang='en', slow=False)
+f=open("demofile.txt","rt")
+myobj = gTTS(text=f,lang='language', slow=False)
 
 # saving the speech as a mp3 file.
 myobj.save("name.mp3")
 
-os.system("mgp321 name.mp3")
+os.system("mpg321 name.mp3")
