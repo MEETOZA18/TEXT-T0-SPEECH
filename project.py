@@ -4,7 +4,7 @@ import os
 
 # en=english language
 myobj = gTTS(text=input("Enter Text for Text to Speech : "),
-             lang='en', slow=False)
+             lang='en')
 
 # saving the speech as a mp3 file.
 myobj.save("name.mp3")
